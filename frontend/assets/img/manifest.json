@@ -1,0 +1,538 @@
+{
+    "brand/darmo-inn-dark": {
+        "w": [
+            160,
+            320,
+            365
+        ],
+        "width": 365,
+        "height": 350,
+        "origin": "Logo Darmo Inn, latar dihapus dan diwarnai ungu dan emas tua untuk latar terang"
+    },
+    "brand/darmo-inn-light": {
+        "w": [
+            160,
+            320,
+            365
+        ],
+        "width": 365,
+        "height": 350,
+        "origin": "Logo Darmo Inn, latar ungu dihapus (tinta putih dan emas)"
+    },
+    "brand/graha-pena": {
+        "w": [
+            160,
+            320,
+            640
+        ],
+        "width": 640,
+        "height": 640,
+        "origin": "Logo Graha Pena Jawa Pos, docs/asset/Logo/logograhapena.png"
+    },
+    "brand/news-hotel": {
+        "w": [
+            160,
+            320,
+            640
+        ],
+        "width": 640,
+        "height": 278,
+        "origin": "Logo News Hotel, docs/asset/Logo/logo-newshotel.png"
+    },
+    "brand/news-hotel-white": {
+        "w": [
+            160,
+            320,
+            640
+        ],
+        "width": 640,
+        "height": 278,
+        "origin": "Logo News Hotel diwarnai putih untuk latar gelap"
+    },
+    "darmo-inn/facade-render": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 1198,
+        "origin": "Render arsitek (tahap desain) (sumber: docs/asset/darmoinn/Facade_depan_darmoinn.jpeg)"
+    },
+    "darmo-inn/garden-render": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 1198,
+        "origin": "Render arsitek (tahap desain) (sumber: docs/asset/darmoinn/outdoor-garden.jpeg)"
+    },
+    "darmo-inn/lobby-ornament-render": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 1198,
+        "origin": "Render arsitek (tahap desain) (sumber: docs/asset/darmoinn/lobby-ornamen.jpeg)"
+    },
+    "darmo-inn/lobby-render": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 1198,
+        "origin": "Render arsitek (tahap desain) (sumber: docs/asset/darmoinn/facade_loby.jpeg)"
+    },
+    "darmo-inn/lounge-render": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 1200,
+        "origin": "Render arsitek (tahap desain) (sumber: docs/asset/darmoinn/sofa-lobby.jpeg)"
+    },
+    "darmo-inn/mini-garden-render": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 1200,
+        "origin": "Render arsitek (tahap desain) (sumber: docs/asset/darmoinn/mini-garden.jpeg)"
+    },
+    "darmo-inn/reception": {
+        "w": [
+            480,
+            720,
+            960,
+            1200
+        ],
+        "width": 1200,
+        "height": 1600,
+        "origin": "Foto resepsionis yang sudah jadi (sumber: docs/asset/darmoinn/loby.jpeg)"
+    },
+    "darmo-inn/room-render": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 1198,
+        "origin": "Render arsitek (tahap desain) (sumber: docs/asset/darmoinn/room.jpeg)"
+    },
+    "darmo-inn/room-superior-double": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 1198,
+        "origin": "Render kamar dari listing Traveloka (dari hotel), 24-11-2026 (sumber: docs/asset/darmoinn/kamar/superior-double-traveloka.jpg)"
+    },
+    "darmo-inn/room-superior-twin": {
+        "w": [
+            480,
+            720,
+            864
+        ],
+        "width": 864,
+        "height": 1536,
+        "origin": "Foto kamar dari listing Traveloka (dari hotel), 24-11-2026 (sumber: docs/asset/darmoinn/kamar/superior-twin-traveloka.jpg)"
+    },
+    "semarang/facade": {
+        "w": [
+            480,
+            720,
+            960,
+            1280
+        ],
+        "width": 1280,
+        "height": 720,
+        "origin": "Foto hotel saat soft opening, Nov 2026 (sumber: docs/asset/newshotel_semarang/foto-depan.jpeg)"
+    },
+    "semarang/facade-render": {
+        "w": [
+            480,
+            720,
+            960,
+            1024
+        ],
+        "width": 1024,
+        "height": 1536,
+        "origin": "Render arsitek (tahap desain) (sumber: docs/asset/newshotel_semarang/hires/facade-render-clean.jpeg)"
+    },
+    "semarang/facade-tall": {
+        "w": [
+            480,
+            720,
+            900
+        ],
+        "width": 900,
+        "height": 1600,
+        "origin": "Foto hotel saat soft opening, Nov 2026 (sumber: docs/asset/newshotel_semarang/hotel.jpeg)"
+    },
+    "semarang/room-bathroom": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1447
+        ],
+        "width": 1447,
+        "height": 1087,
+        "origin": "Foto kamar mandi dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/family-triple-bath.jpeg)"
+    },
+    "semarang/room-business": {
+        "w": [
+            480,
+            720,
+            900
+        ],
+        "width": 900,
+        "height": 1600,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/business-room.jpeg)"
+    },
+    "semarang/room-deluxe-double-pool": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1600
+        ],
+        "width": 1600,
+        "height": 900,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/deluxe-double-pool-access.jpeg)"
+    },
+    "semarang/room-deluxe-twin-1": {
+        "w": [
+            480,
+            720,
+            960,
+            1320
+        ],
+        "width": 1320,
+        "height": 960,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/deluxe-twin-1.jpeg)"
+    },
+    "semarang/room-deluxe-twin-2": {
+        "w": [
+            480,
+            720,
+            960,
+            1255
+        ],
+        "width": 1255,
+        "height": 1600,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/deluxe-twin-2.jpeg)"
+    },
+    "semarang/room-executive-1": {
+        "w": [
+            480,
+            720,
+            923
+        ],
+        "width": 923,
+        "height": 1600,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/executive-1.jpeg)"
+    },
+    "semarang/room-executive-2": {
+        "w": [
+            480,
+            720,
+            919
+        ],
+        "width": 919,
+        "height": 1600,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/executive-2.jpeg)"
+    },
+    "semarang/room-executive-3": {
+        "w": [
+            480,
+            720,
+            921
+        ],
+        "width": 921,
+        "height": 1600,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/executive-3.jpeg)"
+    },
+    "semarang/room-family-triple-1": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1500
+        ],
+        "width": 1500,
+        "height": 844,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/family-triple-1.jpeg)"
+    },
+    "semarang/room-family-triple-2": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1500
+        ],
+        "width": 1500,
+        "height": 844,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/family-triple-2.jpeg)"
+    },
+    "semarang/room-superior-double-1": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1448
+        ],
+        "width": 1448,
+        "height": 1086,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/superior-double-1.jpeg)"
+    },
+    "semarang/room-superior-double-2": {
+        "w": [
+            480,
+            720,
+            960,
+            1320
+        ],
+        "width": 1320,
+        "height": 989,
+        "origin": "Foto kamar dari hotel, 24-11-2026 (sumber: docs/asset/newshotel_semarang/kamar/superior-double-2.jpeg)"
+    },
+    "surabaya/buffet": {
+        "w": [
+            480,
+            720,
+            800
+        ],
+        "width": 800,
+        "height": 251,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/f097b8f08871fa12b0d16e9f3b0a2e71.JPG)"
+    },
+    "surabaya/corridor": {
+        "w": [
+            480,
+            633
+        ],
+        "width": 633,
+        "height": 356,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/094d7aa480b87412612edc84774715c9.JPG)"
+    },
+    "surabaya/drugstore": {
+        "w": [
+            480,
+            499
+        ],
+        "width": 499,
+        "height": 281,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/dragstrore.jpg)"
+    },
+    "surabaya/garden-terrace": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1840
+        ],
+        "width": 1840,
+        "height": 1227,
+        "origin": "Foto hotel, slideshow newshotelsby.com lama (sumber: docs/asset/newshotel_surabaya/hires/slide-2.jpg)"
+    },
+    "surabaya/lobby": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1840
+        ],
+        "width": 1840,
+        "height": 1227,
+        "origin": "Foto hotel, slideshow newshotelsby.com lama (sumber: docs/asset/newshotel_surabaya/hires/slide-3.jpg)"
+    },
+    "surabaya/lobby-lounge": {
+        "w": [
+            480,
+            633
+        ],
+        "width": 633,
+        "height": 356,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/a5149865b3231ddb6d61902bd0312c8b.JPG)"
+    },
+    "surabaya/lobby-reading": {
+        "w": [
+            480,
+            633
+        ],
+        "width": 633,
+        "height": 356,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/c8a3b1885873e86dbc49d564489e80cf.JPG)"
+    },
+    "surabaya/meeting": {
+        "w": [
+            480,
+            499
+        ],
+        "width": 499,
+        "height": 242,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/meetingroom.jpg)"
+    },
+    "surabaya/news-corner": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1840
+        ],
+        "width": 1840,
+        "height": 1227,
+        "origin": "Foto hotel, slideshow newshotelsby.com lama (sumber: docs/asset/newshotel_surabaya/hires/slide-1.jpg)"
+    },
+    "surabaya/reception-wide": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1500
+        ],
+        "width": 1500,
+        "height": 399,
+        "origin": "Foto hotel (panorama), slideshow situs lama (sumber: docs/asset/newshotel_surabaya/hires/lobby.jpg)"
+    },
+    "surabaya/restaurant-wide": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1500
+        ],
+        "width": 1500,
+        "height": 469,
+        "origin": "Foto hotel (panorama), slideshow situs lama (sumber: docs/asset/newshotel_surabaya/hires/Resto2.jpg)"
+    },
+    "surabaya/room-deluxe": {
+        "w": [
+            480,
+            720,
+            800
+        ],
+        "width": 800,
+        "height": 533,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/room/1-delux.jpg)"
+    },
+    "surabaya/room-deluxe-2": {
+        "w": [
+            480,
+            534
+        ],
+        "width": 534,
+        "height": 356,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/1977e92fe8bd932eb5765846f205ffa7.JPG)"
+    },
+    "surabaya/room-executive": {
+        "w": [
+            480,
+            720,
+            960,
+            1440,
+            1500
+        ],
+        "width": 1500,
+        "height": 1006,
+        "origin": "Foto hotel, slideshow newshotelsby.com lama (sumber: docs/asset/newshotel_surabaya/hires/room_ex.jpg)"
+    },
+    "surabaya/room-executive-2": {
+        "w": [
+            480,
+            720,
+            800
+        ],
+        "width": 800,
+        "height": 532,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/room/3-executive.jpg)"
+    },
+    "surabaya/room-sitting": {
+        "w": [
+            480,
+            633
+        ],
+        "width": 633,
+        "height": 356,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/0acfa8f480dddc41a7d6904d61a165e1.JPG)"
+    },
+    "surabaya/room-standard": {
+        "w": [
+            480,
+            499
+        ],
+        "width": 499,
+        "height": 281,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/room/4-standart.jpg)"
+    },
+    "surabaya/room-superior": {
+        "w": [
+            480,
+            720,
+            800
+        ],
+        "width": 800,
+        "height": 533,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/room/2-twin.jpg)"
+    },
+    "surabaya/room-superior-2": {
+        "w": [
+            480,
+            534
+        ],
+        "width": 534,
+        "height": 356,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/03e9a78be9e098aef4a2f6b8f3b1015a.JPG)"
+    },
+    "surabaya/shuttle": {
+        "w": [
+            480,
+            720,
+            960,
+            1280
+        ],
+        "width": 1280,
+        "height": 720,
+        "origin": "Foto hotel, galeri situs lama (sumber: docs/asset/newshotel_surabaya/suttle_services.jpg)"
+    }
+}

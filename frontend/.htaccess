@@ -1,0 +1,107 @@
+# Situs publik: URL bersih untuk halaman PHP biasa (tanpa router).
+#
+#   /surabaya/kamar        → surabaya/kamar.php
+#   /en/surabaya/kamar     → surabaya/kamar.php?lang=en
+#   /blog/judul-artikel    → blog/artikel.php?slug=judul-artikel
+#   /sitemap.xml, /robots.txt → sitemap.php, robots.php
+
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+DirectorySlash Off
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+
+    # Bagian privat (potongan template) dan file tersembunyi → 404
+    RewriteRule (^|/)\. - [R=404,L]
+    RewriteRule ^includes(/|$) - [R=404,L]
+
+    # sitemap.xml dan robots.txt dibuat oleh PHP
+    RewriteRule ^sitemap\.xml$ sitemap.php [L]
+    RewriteRule ^robots\.txt$ robots.php [L]
+
+    # Bahasa Inggris: awalan en/ dibuang, lalu diproses ulang dengan ?lang=en
+    RewriteRule ^en/?$ index.php?lang=en [QSA,L]
+    RewriteRule ^en/(.+)$ $1?lang=en [QSA,L]
+
+    # Beranda
+    RewriteRule ^$ index.php [QSA,L]
+
+    # File yang benar-benar ada (aset, .php langsung) disajikan apa adanya
+    RewriteCond %{REQUEST_FILENAME} -f
+    RewriteRule ^ - [L]
+
+    # Artikel blog
+    RewriteRule ^blog/([a-z0-9-]+)/?$ blog/artikel.php?slug=$1 [QSA,L]
+
+    # Folder → index.php (mis. /surabaya, /blog)
+    RewriteCond %{REQUEST_FILENAME}/index.php -f
+    RewriteRule ^(.+?)/?$ $1/index.php [QSA,L]
+
+    # Tanpa .php (mis. /tentang, /surabaya/kamar)
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.+)$ $1.php [QSA,L]
+
+    # Selain itu: 404 (halaman bawaan server)
+    RewriteRule ^ - [R=404,L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header always unset X-Powered-By
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+    <FilesMatch "\.(css|js|webp|avif|jpg|jpeg|png|svg|woff2|ico|gz)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/plain application/xml
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+</IfModule>
+
+AddType font/woff2 .woff2
+AddType image/webp .webp
+
+# manifest.json hanya dibaca PHP dari disk; tidak untuk publik.
+<FilesMatch "\.json$">
+    Require all denied
+</FilesMatch>
+
+# Aset .gz hasil scripts/build-assets.php (XAMPP tidak mengaktifkan mod_deflate).
+<IfModule mod_mime.c>
+    RemoveType .gz
+    RemoveEncoding .gz
+</IfModule>
+<FilesMatch "\.css\.gz$">
+    ForceType text/css
+    <IfModule mod_headers.c>
+        Header set Content-Encoding gzip
+        Header append Vary Accept-Encoding
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.js\.gz$">
+    ForceType application/javascript
+    <IfModule mod_headers.c>
+        Header set Content-Encoding gzip
+        Header append Vary Accept-Encoding
+    </IfModule>
+</FilesMatch>
+<FilesMatch "\.svg\.gz$">
+    ForceType image/svg+xml
+    <IfModule mod_headers.c>
+        Header set Content-Encoding gzip
+        Header append Vary Accept-Encoding
+    </IfModule>
+</FilesMatch>

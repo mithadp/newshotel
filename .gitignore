@@ -1,0 +1,31 @@
+# Pengaturan lokal (password database hosting, dll.)
+/shared/config.local.php
+
+# Foto hasil unggahan lewat panel admin (data, bukan kode)
+/frontend/assets/img/uploads/*
+!/frontend/assets/img/uploads/.htaccess
+
+# Hasil build: dibuat ulang dengan scripts/build-assets.php
+*.gz
+
+# Dependensi dan log
+node_modules/
+*.log
+
+# Dokumen kantor dan arsip tidak untuk repo
+*.docx
+*.doc
+*.pdf
+*.xlsx
+*.zip
+
+# Foto mentah Darmo Inn (ratusan MB); hasil optimasinya ada di frontend/assets/img
+/docs/asset/darmoinn/
+
+# Sumber film peluncuran (hasilnya sudah ada di frontend/assets/video)
+/scripts/motion/
+
+# Sistem operasi
+Thumbs.db
+desktop.ini
+.DS_Store

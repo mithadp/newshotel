@@ -1,0 +1,10 @@
+# Hasil unggahan admin hanya berupa gambar WebP; jangan pernah menjalankan skrip dari sini.
+<FilesMatch "\.(php|phtml|php[0-9]|phar|pl|py|cgi|sh|html?|svg)$">
+    Require all denied
+</FilesMatch>
+<IfModule mod_php.c>
+    php_flag engine off
+</IfModule>
+<IfModule mod_php8.c>
+    php_flag engine off
+</IfModule>
